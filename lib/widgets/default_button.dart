@@ -16,6 +16,14 @@ class DefaultButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
+      style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all<Color>(color),
+        textStyle: MaterialStateProperty.all<TextStyle>(
+          TextStyle(
+            color: textColor,
+          ),
+        ),
+      ),
       onPressed: onPressed,
       child: child,
     );
