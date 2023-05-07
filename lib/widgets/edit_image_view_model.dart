@@ -7,7 +7,7 @@ abstract class EditImageViewModel extends State<EditImageScreen> {
   TextEditingController textEditingController = TextEditingController();
   TextEditingController creatorText = TextEditingController();
 
-  //*Add  Text
+  //* Add  Text
   List<TextInfo> texts = [];
 
   addNewText(BuildContext context) {

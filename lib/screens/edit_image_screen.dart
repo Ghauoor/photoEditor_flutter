@@ -50,7 +50,7 @@ class _EditImageScreenState extends EditImageViewModel {
                           () {
                             //Get these Values trail and Run
                             texts[i].top = off.dy - 96;
-                            texts[i].left = off.dx - 96;
+                            texts[i].left = off.dx;
                           },
                         );
                       },
